@@ -112,12 +112,12 @@ TextureImporter:
       name: platforms_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 54
-        width: 49
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 23
+        width: 32
+        height: 9
+      alignment: 9
+      pivot: {x: 0.49199978, y: 0.4921604}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -139,7 +139,7 @@ TextureImporter:
         width: 49
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -161,7 +161,7 @@ TextureImporter:
         width: 49
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -183,7 +183,7 @@ TextureImporter:
         width: 49
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -200,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 50334a6e5e93d410bb6e36c3bcfe7e18
     internalID: 0
     vertices: []
     indices: 
