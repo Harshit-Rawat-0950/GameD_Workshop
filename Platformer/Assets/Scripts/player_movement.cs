@@ -29,6 +29,8 @@ public class player_movement : MonoBehaviour
             Debug.Log(colliding);
             rb.linearVelocity = new Vector2(moveInput * moveSpeed, -slideSpeed);
         }
+        else
+            rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
         if (Input.GetKey(KeyCode.UpArrow) && grounded)
         {
             Jump(JumpForce); // Jump with a force of 7
@@ -54,6 +56,9 @@ public class player_movement : MonoBehaviour
             Debug.Log("IsGrounded");
             grounded = true;
         }
+    }
+    private void OnCollisionStay2D(Collision2D collision)
+    {
         if (collision.gameObject.CompareTag("Wall"))
         {
             colliding = true;
